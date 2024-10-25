@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --cabeçalho: #f7ede5;
+    --letracabecalho: #bfb290;
+    --titulo: #eca496;
+    --subtitulo: #d3a494;
+    --letra: #a8a8a8;
+    --fundo: #f7ede5;
+    --botao:  #e7b696;
+    --botaohover: #d2b8a1;
+    --rodape:  #ebcec6;
+}
+
+/* cabeçalho */
+.logo {
+    width: 150px;
+}
+
+header {
+    background-color: var(--cabeçalho);
+    display: flex;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botoes {
+    color: var(--letracabecalho);
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* end >> cabeçalho */
+
+h1 {
+    color: var(--titulo);
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.p1 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto; 
+    gap: 40px;
+    background-color: var(--fundo);
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 30px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);;
+    
+}
+
+form div {
+    width: 47.5%;
+    text-align: center;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+
+form div input {
+    padding: 5px;
+    width: 40%;
+}
+
+.bt5 {
+    background-color: var(--botao);
+    color: var(--branco);
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: block;   
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.bt5:hover {
+    background-color: var(--botaohover);
+}
+
+.mensagem {
+    text-align: center;
+    width: 100%;
+}
+
+.mensagem label {
+    text-align: center;
+    display: block;
+}
+
+h5 {
+    text-align: center;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+
+
+/* inicio footer */
+.redes {
+    justify-self: flex-end;
+    padding-right: 30px;
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--letracabecalho);
+}
+
+
+.tamanhoimg{
+    width: 100px;
+}
+
+.p3 {
+    text-align: center;
+    color: var(--branco);
+    font-size: larger;
+    padding: 30px;
+}
+
+footer{
+    background-color: var(--rodape);
+}
+
+/* fim footer */

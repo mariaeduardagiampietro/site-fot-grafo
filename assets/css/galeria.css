@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+ 
+:root {
+    --cabeçalho: #f7ede5;
+    --letracabecalho: #bfb290;
+    --titulo: #eca496;
+    --subtitulo: #d3a494;
+    --letra: #949494;
+    --fundo: #f7ede5;
+    --botao:  #e7b696;
+    --botaohover: #d2b8a1;
+    --rodape:  #ebcec6;
+}
+ 
+/* CABEÇALHO */
+.logo {
+    width: 150px;
+}
+ 
+header {
+    background-color: var(--cabeçalho);
+    display: flex;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+nav {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+ 
+header a {
+    color: var(--letracabecalho);
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* inicio footer */
+.redes {
+    justify-self: flex-end;
+    padding-right: 30px;
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--letracabecalho);
+}
+
+
+.tamanhoimg{
+    width: 100px;
+}
+
+.p3 {
+    text-align: center;
+    color: var(--branco);
+    font-size: larger;
+    padding: 30px;
+}
+
+footer{
+    background-color: var(--rodape);
+}
+
+/* fim footer */
